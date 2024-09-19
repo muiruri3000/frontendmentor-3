@@ -32,7 +32,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: var(--White);
-    margin-top:120px;
+    margin-top:100px;
     display: flex;
     flex-direction: column;
     background-color: var(--Grey2);
@@ -48,7 +48,7 @@ main{
 .img{
     height: 80px;
     width:80px;
-    margin-bottom: 10px;
+  
     background-repeat: no-repeat;
     background-image: url('https://muiruri3000.github.io/frontendmentor-3/assets/images/avatar-jessica.jpeg');
     background-position: center;
@@ -91,9 +91,6 @@ main{
 
     
 }
-.buttons a{
- 
-}
 
 .buttons button a {
     text-decoration: none;
@@ -133,4 +130,47 @@ h1{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grey3);
+   
+    justify-content: center;
+    align-self: self-end;
+    align-items: center;
+}
 
+@media (min-width:375px){
+.card{
+    width: 250px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.buttons a button{
+    padding: 5px
+}
+main{
+width: 60%;
+background-color: var(--Grey3);
+}
+
+
+}
+
+
+@media (min-width:875px){
+    .card{
+        width: 250px;
+        height: 400px;
+      
+    }
+    
+
+    main{
+    width: 60%;
+    background-color: var(--Grey3);
+    }
+    
+    
+    }
