@@ -39,6 +39,7 @@ main{
     border-radius: 10px;
     padding: 10px 0px;
     width: 350px;
+    max-width: 400px;
 
     
  
@@ -49,7 +50,7 @@ main{
     width:80px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
-    background-image: url('https://muiruri3000.github.io/frontedmentor-3/assets/images/avatar-jessica.jpeg');
+    background-image: url('/assets/images/avatar-jessica.jpeg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
