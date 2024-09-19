@@ -50,7 +50,7 @@ main{
     width:80px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
-    background-image: url('assets/images/avatar-jessica.jpeg');
+    background-image: url('../images/avatar-jessica.jpeg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
