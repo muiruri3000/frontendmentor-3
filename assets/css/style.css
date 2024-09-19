@@ -38,8 +38,8 @@ main{
     background-color: var(--Grey2);
     border-radius: 10px;
     padding: 10px 0px;
-    width: 300px;
-    max-width: 350px;
+    width: 350px;
+
     
  
     
@@ -49,7 +49,7 @@ main{
     width:80px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
-    background-image: url('https://muiruri3000.github.io/frontedmentor-3/assets/images/assets/images/avatar-jessica.jpeg');
+    background-image: url('https://muiruri3000.github.io/frontedmentor-3/assets/images/avatar-jessica.jpeg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -78,21 +78,20 @@ main{
 }
 
 .buttons a button{
-    width: 100%;
-    color: white;
-}
-.buttons a button{
     padding: 12px 90px;
     margin: 5px;
+
     background-color: var(--Grey1);
     border-radius: 7px;
+    width: 100%;
+    color: white;
     cursor: pointer;
     transition: background-color 0.5s color 0.5s;
+
     
 }
 .buttons a{
-    width: 100%;
-    color: white;
+ 
 }
 
 .buttons button a {
