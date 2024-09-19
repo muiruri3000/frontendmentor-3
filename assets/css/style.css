@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+
+}
+body{
+    font-family: 'Inter';
+}
+
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey1: hsl(0, 0%, 20%);
+--Grey2: hsl(0, 0%, 12%);
+--Grey3: hsl(0, 0%, 8%);
+
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    background-color: var(--Grey3);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.card{
+    align-self: self-start;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--White);
+    margin-top:120px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grey2);
+    border-radius: 10px;
+    padding: 10px 0px;
+    width: 300px;
+    max-width: 350px;
+    
+ 
+    
+}
+.img{
+    height: 80px;
+    width:80px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/avatar-jessica.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.links h1, p{
+    color: var(--White);
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+}
+.buttons button{
+    padding: 12px 90px;
+    margin: 5px;
+    background-color: var(--Grey1);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s color 0.5s;
+    
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size:10px;
+    color: var(--White);
+    font-weight: 600;
+}
+.buttons button:hover a{
+    color: black;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    background-color: var(--Green);
+    color: black;
+}
+p:not(.para){
+    color:var(--Green);
+    font-weight: 600;
+    margin-top: 7px;
+    
+}
+.para{
+    margin:15px 12px;
+   
+}
+p{
+    font-size: 10px;
+}
+h1{
+    font-size: 18px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
